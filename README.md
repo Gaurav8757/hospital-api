@@ -6,7 +6,7 @@ A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track
 
 ## Features
 
-- An API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of COVID-19 patients
+- An API for the doctors of a Hospital that has been allocated by the govt for testing and quarantine + well-being of COVID-19 patients
 - There can be 2 types of Users
   - Doctors
   - Patients
@@ -16,7 +16,7 @@ A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track
     return the patient info in the API)
   - After the checkup, create a Report
 - Patient Report will have the following fields
-  - Created by doctor
+  - Created by a doctor
   - Status [Negative, Travelled-Quarantine, Symptoms-Quarantine, Positive-Admit]
   - Date
 
@@ -50,10 +50,14 @@ A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track
 
 Screenshots:
 
-![image](https://user-images.githubusercontent.com/36923392/203630838-9f536cc0-cf35-4d03-b9ce-8fc405b73cda.png)
+![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/bc8a4eb7-abb5-40cf-ba9a-9d86794078df)
+)
 
-![image](https://user-images.githubusercontent.com/36923392/203630924-e1769339-2368-43ae-8de8-824b2f895e9c.png)
+![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/fc1d38ac-53c5-42ac-8ed2-28154019f50f)
+)
 
-![image](https://user-images.githubusercontent.com/36923392/203631032-579dd886-888b-4534-ac91-698e6f977ffd.png)
+![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/ed057577-4453-43fe-90a4-cd28e5faa8f6)
+)
 
-![image](https://user-images.githubusercontent.com/36923392/203631227-b1989557-7fc7-4872-b64e-54b8300b5a2f.png)
+![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/e384cac2-c1c6-4c18-9fc7-1307200344cf)
+)
