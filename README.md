@@ -52,6 +52,7 @@ Screenshots:
 
 ![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/bc8a4eb7-abb5-40cf-ba9a-9d86794078df)
 )
+![deployed api](https://github.com/Gaurav8757/hospital-api/assets/94515205/3002c14b-732f-46f8-a92f-2f311fbb4e78)
 
 ![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/fc1d38ac-53c5-42ac-8ed2-28154019f50f)
 )
