@@ -1,0 +1,195 @@
+openapi: 3.0.0
+info:
+  title: Hospital API
+  description: |-
+    A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track of their patients with Covid19 test reports.
+
+
+  contact: {}
+  version: '2.0'
+servers:
+- url: 
+  variables: {}
+paths:
+  /doctor/register:
+    post:
+      tags:
+      - Auth
+      summary: Register Doctor
+      operationId: RegisterDoctor
+      parameters: []
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            encoding: {}
+            schema:
+              required:
+              - name
+              - phone
+              - password
+              - confirm_password
+              type: object
+              properties:
+                name:
+                  type: string
+                  example: Gaurav Kumar
+                phone:
+                  type: integer
+                  format: int64
+                  example: 8540836254
+                password:
+                  type: integer
+                  format: int32
+                  example: 10233
+                confirm_password:
+                  type: integer
+                  format: int32
+                  example: 00011
+        required: false
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security: []
+  /doctor/login:
+    post:
+      tags:
+      - Auth
+      summary: Doctor Login
+      operationId: DoctorLogin
+      parameters: []
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            encoding: {}
+            schema:
+              required:
+              - phone
+              - password
+              type: object
+              properties:
+                phone:
+                  type: integer
+                  format: int64
+                  example: 8540836254
+                password:
+                  type: integer
+                  format: int32
+                  example: 10233
+        required: false
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security: []
+  /patient:
+    get:
+      tags:
+      - Patient
+      summary: Register Patient
+      operationId: RegisterPatient
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security:
+      - bearer: []
+  /patient/{id}/create_report:
+    post:
+      tags:
+      - Patient
+      summary: Create Patient Report
+      operationId: CreatePatientReport
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+        description: The Patient ID
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            encoding: {}
+            schema:
+              required:
+              - status
+              - date
+              - doctor
+              type: object
+              properties:
+                status:
+                  type: string
+                  example: Negative
+                date:
+                  type: string
+                  example: 30 Nov
+                doctor:
+                  type: string
+                  example: 637e70f44f1412f641gec468
+        required: false
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security:
+      - bearer: []
+  /patient/{id}/all_reports:
+    get:
+      tags:
+      - Patient
+      summary: Get Reports by user
+      operationId: GetReportsbyuser
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+        description: The user ID]
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security:
+      - bearer: []
+  /report/{status}:
+    get:
+      tags:
+      - Reports
+      summary: Get Report by Status
+      operationId: GetReportbyStatus
+      parameters:
+      - in: path
+        name: status
+        schema:
+          type: string
+        required: true
+        description: Status of Patient
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+      security:
+      - bearer: []
+components:
+  securitySchemes:
+    bearer:
+      type: http
+      scheme: bearer
+security: []
+tags:
+- name: Auth
+  description: 'Doctor Registration'
+- name: Patient
+  description: 'Patient Information'
+- name: Reports
+  description: 'Report Generation'
+  
