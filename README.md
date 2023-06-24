@@ -2,7 +2,7 @@
 
 A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track of their patients with Covid19 test reports.
 
-[Live](https://enchanting-cuff-dog.cyclic.app/)
+[Live](https://itchy-parka-hare.cyclic.app/)
 
 ## Features
 
