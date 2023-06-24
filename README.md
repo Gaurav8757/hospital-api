@@ -50,15 +50,12 @@ A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track
 
 Screenshots:
 
-![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/bc8a4eb7-abb5-40cf-ba9a-9d86794078df)
-)
+![register_doctor](https://github.com/Gaurav8757/hospital-api/assets/94515205/974fa162-7b83-44ff-a1f1-18a0cd761e9a)
+
+![login_doctor](https://github.com/Gaurav8757/hospital-api/assets/94515205/fbb1ee9f-de81-4b11-9a8a-e037ef69724d)
+
+![patient_register](https://github.com/Gaurav8757/hospital-api/assets/94515205/f2aae6a5-6e97-42d3-bb1e-bca9226fab9a)
+
+![patient_status](https://github.com/Gaurav8757/hospital-api/assets/94515205/d8c2873c-9881-41d1-94ed-20f7d3ce7f0e)
+
 ![deployed api](https://github.com/Gaurav8757/hospital-api/assets/94515205/3002c14b-732f-46f8-a92f-2f311fbb4e78)
-
-![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/fc1d38ac-53c5-42ac-8ed2-28154019f50f)
-)
-
-![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/ed057577-4453-43fe-90a4-cd28e5faa8f6)
-)
-
-![image](![image](https://github.com/Gaurav8757/hospital-api/assets/94515205/e384cac2-c1c6-4c18-9fc7-1307200344cf)
-)
