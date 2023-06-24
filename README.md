@@ -4,8 +4,6 @@ A Server-side API built on NodeJS and MongoDB for hospital doctors to keep track
 
 [Live](https://enchanting-cuff-dog.cyclic.app/)
 
-[Documentation](https://hospital-api-production.up.railway.app/api-docs/#/)
-
 ## Features
 
 - An API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of COVID-19 patients
